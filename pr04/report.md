@@ -7,21 +7,21 @@
 мая 07 22:23:00 debian sudo[13835]: debiankamzinov : TTY=pts/1 ; PWD=/home/debiankamzinov/security-course ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
 ```
 Разбор полей: 
-    maa 07 22:09:05 — дата и время события
+maa 07 22:09:05 — дата и время события
 
-    debian — имя хоста
+debian — имя хоста
 
-    sudo[13363] — процесс (sudo) и его PID
+sudo[13363] — процесс (sudo) и его PID
 
-    debiankamzinov — пользователь, выполнивший sudo
+debiankamzinov — пользователь, выполнивший sudo
 
-    TTY=pts/0 — терминал, с которого выполнена команда
+TTY=pts/0 — терминал, с которого выполнена команда
 
-    PWD=... — рабочая директория
+PWD=... — рабочая директория
 
-    USER=root — пользователь, от которого выполнена команда
+USER=root — пользователь, от которого выполнена команда
 
-    COMMAND=/usr/bin/syslogd — выполненная команда
+COMMAND=/usr/bin/syslogd — выполненная команда
 
 ### Ошибки в системе с последней загрузки
 мая 07 21:59:20 debian systemd[3500]: Failed to start app-gnome-gnome\x2dkeyring\x2dssh-3695.scope - Application launched by gnome-session-binary.
