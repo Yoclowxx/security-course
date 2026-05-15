@@ -53,7 +53,7 @@ gpg: ПЛОХАЯ подпись пользователя "Yoclowxx <t.kamzinov@
 ## 4. Подпись коммитов
 
 ![Verified коммит на GitHub](screens/7.png)
-(screens/10.png)
+![git log --show-signature](screens/10.png)
 
 **Ссылка на коммит:** 
 https://github.com/Yoclowxx/security-course/commit/4aa759eb1f9fce2180cf00f9f5b1e4a3b2ba42eb
