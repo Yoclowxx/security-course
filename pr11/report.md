@@ -13,7 +13,7 @@
 Время от начала атаки до бана: **~ 5-10 секунд** (зависит от таймингов hydra и частоты попыток)
 
 Скриншот fail2ban-client status sshd с забаненным IP:
-(screens/3.png)
+![Брутфорс через hydra](screens/3.png)
 
 ## 3. Механизм блокировки
 
@@ -28,7 +28,7 @@
 Что означает bantime.increment: **Время бана увеличивается при повторных нарушениях с одного IP.** Если `bantime.increment = true` и `factor = 2`, то при первом бане время = 1800с, при втором = 3600с, при третьем = 7200с и т.д.
 
 Скриншот после применения новых настроек:
-(screens/10.png)
+![Усиленная защита](screens/10.png)
 *(На скриншоте видно: Total failed: 2, Currently banned: 1, Banned IP list: 192.168.0.5 - бан сработал после 2 неудачных попыток)*
 
 ## 5. Suricata
@@ -43,7 +43,7 @@ Warning: detect: No rule files match the pattern suricata.rules
 **Решение:** необходимо создать файл `/etc/suricata/rules/suricata.rules` и добавить правило.
 
 Статус Suricata:
-(screens/9.png)
+![Статус Suricata](screens/9.png)
 *(Сервис пытается перезапуститься, но падает с ошибкой)*
 
 Дополнительные поля в eve.json по сравнению с fast.log: 
